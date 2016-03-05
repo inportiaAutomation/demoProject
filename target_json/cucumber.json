@@ -1,0 +1,89 @@
+[
+  {
+    "id": "edmodo-login",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "description": "",
+    "name": "Edmodo Login",
+    "keyword": "Feature",
+    "line": 2,
+    "elements": [
+      {
+        "description": "",
+        "name": "",
+        "keyword": "Background",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 149650664,
+              "status": "passed"
+            },
+            "name": "User is on login page",
+            "keyword": "* ",
+            "line": 5,
+            "match": {
+              "location": "LoginSteps.User_is_on_login_page()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2165631,
+              "status": "passed"
+            },
+            "name": "User logins with \"USER_NANE\" and \"PASSWORD\"",
+            "keyword": "* ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "USER_NANE",
+                  "offset": 18
+                },
+                {
+                  "val": "PASSWORD",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginSteps.User_logins_with_and(String,String)"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "id": "edmodo-login;login-into-the-edmodo",
+        "tags": [
+          {
+            "name": "@login_01",
+            "line": 8
+          }
+        ],
+        "description": "",
+        "name": "Login into the Edmodo",
+        "keyword": "Scenario",
+        "line": 9,
+        "steps": [
+          {
+            "result": {
+              "duration": 21718,
+              "status": "passed"
+            },
+            "name": "Verify if user is able to login into the system",
+            "keyword": "* ",
+            "line": 10,
+            "match": {
+              "location": "LoginSteps.Verify_if_user_is_able_to_login_into_the_system()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "Login.feature"
+  }
+]

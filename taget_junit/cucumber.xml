@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.151838">
+<testcase classname="Edmodo Login" name="Login into the Edmodo" time="0.151838">
+<system-out><![CDATA[* User is on login page.....................................................passed
+* User logins with "USER_NANE" and "PASSWORD"...............................passed
+* Verify if user is able to login into the system...........................passed
+]]></system-out>
+</testcase>
+</testsuite>
